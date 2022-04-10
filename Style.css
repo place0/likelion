@@ -1,0 +1,108 @@
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: '양진체';
+}
+
+#total {
+    display: flex;
+}
+
+#left {
+    text-align: center;
+    height: 100vh;
+    background-image: url('https://t1.daumcdn.net/cfile/tistory/99CA2D4D5CB4AB4A27');
+    padding: 50px;
+}
+
+li{
+    list-style: none;
+    font-size: large;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+#right{
+    overflow: scroll;
+    background-image: url('https://t1.daumcdn.net/cfile/tistory/99D4E44F5CB4AB4A20');
+    height: 100vh;
+    background-size: auto;
+    padding: 50px;
+    width: 100vw;
+    float: left;
+}
+
+.right_1{
+   display: block;
+   margin: auto;
+   text-align: center;
+}
+
+.right_2{
+    text-align: center;
+}
+
+.right_3 {
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px gray;
+}
+
+h2.name {
+    color: gray
+}
+
+#ABOUT_ME {
+    text-shadow: 2px 2px 2px gray;
+    text-decoration: none;
+}
+
+#CONTACT {
+    text-shadow: 2px 2px 2px gray;
+    text-decoration: none;
+}
+
+#MORE{
+    text-shadow: 2px 2px 2px gray;
+    text-decoration: none;
+}
+
+.content-index {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    
+}
+
+.content {
+    font-weight: lighter;
+    color: #888888;
+    text-align: center;
+}
+
+.image {
+    border: 1px solid #ff9e9e;
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {color: #ca8181;}
+a:active {color: #fe7474;}
+
+.box {
+    background-color:  rgb(255, 196, 0);
+    width: 100px; height: 100px;
+}
